@@ -1,0 +1,112 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: linear-gradient(to top left, #a9f5ff, #002659);
+}
+.wrapper{
+    padding: 40px;
+}
+*{
+    font-size: 16px;
+}
+input,button {
+    outline:none;
+}
+.search-input{
+    width: 100%;
+    max-width: 500px;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0;
+    border-radius: 25px;
+}
+
+.btn{
+ background-color: rgba(0, 0, 0, 0);
+ border:0;
+ padding: 0;
+ cursor: pointer; 
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+}
+.btn-img{
+ margin-left: 5px;
+ width: 32px;
+ height: 32px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.result-title a{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+    font-family: sans-serif,arial;
+}
+.result-title{
+    padding: 10px 0;
+}
+.result-link{
+    color: #b7e7f2;
+}
+.result-text{
+    color: #d1d1d1;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.google-prosti{
+    font-size: 55px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-prosti span{
+    display: block;
+    margin: 0 5px;
+}
+.google-prosti span:nth-child(1){
+    color: #35a853;
+    transform: rotateZ(-15deg);
+}
+.google-prosti span:nth-child(2){
+    color: #4284f4;
+    transform: rotateZ(10deg);
+    
+}
+.google-prosti span:nth-child(3){
+    color: #ea4335;
+    transform: rotateZ(-15deg);
+    
+}
+.google-prosti span:nth-child(4){
+    color: #fbbc05;
+    transform: rotateZ(-35deg);
+    
+}
+.google-prosti span:nth-child(5){
+    color: #4284f4;
+    transform: rotateZ(-51deg);
+    
+}
+.google-prosti span:nth-child(6){
+    color: #35a853;
+    transform: rotateZ(-10deg);
+    
+}
+.google-prosti span:nth-child(7){
+    color: #ea4335;
+    transform: rotateZ(35deg);
+}
